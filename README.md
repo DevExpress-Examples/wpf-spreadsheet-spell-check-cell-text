@@ -45,3 +45,8 @@ Follow the steps below to integrate a spell checker into the Spreadsheet applica
 
 * [SpreadsheetSpellChecker.cs](./CS/SpreadsheetSpellChecker.cs) (VB: [SpreadsheetSpellChecker.vb](./VB/SpreadsheetSpellChecker.vb))
 <!-- default file list end -->
+
+## More Examples
+
+- [Spreadsheet for WinForms – Spell Check Text in a Cell Editor](https://github.com/DevExpress-Examples/winforms-spreadsheet-spell-check-cell-text)
+
