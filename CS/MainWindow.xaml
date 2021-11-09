@@ -1,0 +1,21 @@
+﻿<dx:ThemedWindow x:Class="SpreadsheetSpellchecking_WPF.MainWindow" mc:Ignorable="d" Title="Spreadsheet" Height="700" Width="1100" 
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:local="clr-namespace:SpreadsheetSpellchecking_WPF" 
+    xmlns:mvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+    xmlns:dxsps="http://schemas.devexpress.com/winfx/2008/xaml/spreadsheet">
+    <Grid>
+        <dxsps:SpreadsheetControl x:Name="spreadsheetControl" CommandBarStyle="Ribbon" 
+                                  ShowFormulaBar="True" ShowStatusBar="True" 
+                                  Loaded="OnSpreadsheetControl_Loaded">
+            <mvvm:Interaction.Behaviors>
+                <local:SpreadsheetSpellChecker CheckAsYouType="True" 
+                                               ShowSpellCheckMenu="True" 
+                                               Culture="en-US"/>
+            </mvvm:Interaction.Behaviors>
+        </dxsps:SpreadsheetControl>
+    </Grid>
+</dx:ThemedWindow>

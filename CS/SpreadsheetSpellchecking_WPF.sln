@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpreadsheetSpellchecking_WPF", "SpreadsheetSpellchecking_WPF.csproj", "{2EB62848-6B19-4A6F-AEE9-3A2E60ED8231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB62848-6B19-4A6F-AEE9-3A2E60ED8231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB62848-6B19-4A6F-AEE9-3A2E60ED8231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB62848-6B19-4A6F-AEE9-3A2E60ED8231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB62848-6B19-4A6F-AEE9-3A2E60ED8231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C88336CC-9776-4639-A9B7-DC71F8AB8B2E}
+	EndGlobalSection
+EndGlobal
